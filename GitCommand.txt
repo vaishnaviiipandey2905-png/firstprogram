@@ -1,0 +1,24 @@
+***** Run This First Command if changing available in your file *****
+
+	git add .
+
+***** if you are dont't understant then run this command ******
+	
+	git status
+
+***** if you are already run git add . command so then try to run this command *****
+
+	git commit -m "fjr"
+
+
+
+***** Author identity unknown then try to run this command *****
+
+	git config --global user.email "vaishnaviiipandey2905@gmail.com"
+
+
+
+git pull origin main
+
+
+git push origin main
