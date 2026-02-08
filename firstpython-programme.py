@@ -79,3 +79,20 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #             break
 #     else:
 #         print("Prime number.")            
+
+# # Write a program and use title(), capitalize(), swapcase().
+# str = input("Enter a string: ")
+# print("Title: ",str.title())
+# print("Capitalize: ", str.capitalize())
+# print("Swapcase: ",str.swapcase())
+
+# Wap to print student information first name, last name, age, gender, mother name, father name, branch and college.
+fname = input("Enter first name: ")
+lname = input("Enter a last name: ")
+age = int(input("Enter your age: "))
+gender = input("Enter your gender: ")
+mother_name = input("Enter your mother name: ")
+father_name = input("Enter your father name: ")
+branch = input("Enter your branch: ")
+college = input("ENter your college name: ")
+print(f"My name is {fname}{lname} and my age is {age}. I am a {gender}. My mother's name is {mother_name} and my father's name is {father_name}. I am pursing my {branch} in {college}.")
