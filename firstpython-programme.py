@@ -129,3 +129,28 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # for i in list:
 #     count[i]= count.get(i,0)+1
 # print(count)
+
+# # Wap and whether a year is leap year or not.
+# year = int(input("Enter a year: "))
+# if (year%400==0) or (year%4==0 and year%100!=0):
+#     print("This is a leap year.")
+# else:
+#     print("This is not a leap year.")
+
+# #check frequency of a string.
+# str = input("Enter a character: ")
+# frequency = {}
+
+# for char in str:
+#     if char in frequency:
+#         frequency[char] += 1
+#     else:
+#         frequency[char] = 1
+# print(frequency)
+
+# # Write a program and check whether a number is divisible by 5 and 11.
+# num = int(input("Enter a number: "))
+# if num%5==0 and num%11==0:
+#     print("It is divisible by 5 and 11.")
+# else:
+#     print("It is not divisible by 5 and 11.")
