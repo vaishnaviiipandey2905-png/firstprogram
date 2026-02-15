@@ -154,3 +154,14 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #     print("It is divisible by 5 and 11.")
 # else:
 #     print("It is not divisible by 5 and 11.")
+
+#to check whether which number is larger.
+numbers = [10, 45, 23, 89, 34]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest number is:", largest)
