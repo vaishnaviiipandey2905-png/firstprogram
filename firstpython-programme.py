@@ -155,13 +155,20 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # else:
 #     print("It is not divisible by 5 and 11.")
 
-#to check whether which number is larger.
-numbers = [10, 45, 23, 89, 34]
+#to check whether which number is larger. 
+# numbers = [10, 45, 23, 89, 34]
 
-largest = numbers[0]
+# largest = numbers[0]
 
-for num in numbers:
-    if num > largest:
-        largest = num
+# for num in numbers:
+#     if num > largest:
+#         largest = num
 
-print("Largest number is:", largest)
+# print("Largest number is:", largest)
+
+# # Accept temperature in celsuis and print whether water is boiling or not.
+# a = float(input("Enter the temperature: "))
+# if a>=100:
+#     print("Water is boiling.")
+# else:
+#     print("Water is not boiling.")
