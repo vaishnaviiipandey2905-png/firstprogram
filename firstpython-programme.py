@@ -172,3 +172,11 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #     print("Water is boiling.")
 # else:
 #     print("Water is not boiling.")
+
+# Write a program to find maximum and minimum numbers.
+a = [23,45,67,34,56,12,45]
+maximum = max(a)
+minimum = min(a)
+print("list of number: ", a)
+print("maximum number: ", maximum)
+print("minimum number: ", minimum)
