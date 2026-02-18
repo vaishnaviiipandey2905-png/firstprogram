@@ -173,10 +173,16 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # else:
 #     print("Water is not boiling.")
 
-# Write a program to find maximum and minimum numbers.
-a = [23,45,67,34,56,12,45]
-maximum = max(a)
-minimum = min(a)
-print("list of number: ", a)
-print("maximum number: ", maximum)
-print("minimum number: ", minimum)
+# # Write a program to find maximum and minimum numbers.
+# a = [23,45,67,34,56,12,45]
+# maximum = max(a)
+# minimum = min(a)
+# print("list of number: ", a)
+# print("maximum number: ", maximum)
+# print("minimum number: ", minimum)
+
+#add two number.
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+sum = a+b
+print("result= ",sum)
