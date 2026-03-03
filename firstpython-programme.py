@@ -182,7 +182,32 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # print("minimum number: ", minimum)
 
 #add two number.
-a = int(input("Enter 1st number: "))
-b = int(input("Enter 2nd number: "))
-sum = a+b
-print("result= ",sum)
+# a = int(input("Enter 1st number: "))
+# b = int(input("Enter 2nd number: "))
+# sum = a+b
+# print("result= ",sum)
+
+# Accept two numbers and print the greatest number between them
+# a = int(input("enter first number:"))
+# b = int(input("enter second number:"))
+# if a>b:
+#     print(" a is greater than b")
+# else:
+#     print(" b is greater than a")
+
+# Accept the gender from the user as char and print the respective message.
+# gen = input("enter your gender as character(M or F): ")
+# if gen== "M":
+#     print("good morning sir")
+# else:
+#     print("good morning mam")
+
+# Accept name and age from the user and check if the user is valid for vote or not.
+# name = input("Enter your name: ")
+# age = int(input("enter your age: "))
+# if age >=18:
+#     print(f"hello {name} you are valid voter.")
+# else:
+#     print(f"hello {name} you are not a valid voter.")
+
+#
