@@ -210,4 +210,18 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # else:
 #     print(f"hello {name} you are not a valid voter.")
 
-#
+# Write a program to simple calculator.
+# a = int(input("Enter first number: "))
+# b = int(input("Enter a second number: "))
+# c = input("Enter operator(+, -, *, /): ")
+
+# if c=='+':
+#     print("result= ",a+b)
+# elif c=='-':
+#     print("result= ",a-b)
+# elif c=='*':
+#     print("result: ",a*b)
+# elif c=='/':
+#     print("result: ",a/b)
+# else: 
+#     print("invalid operator")
