@@ -225,3 +225,8 @@ print( "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #     print("result: ",a/b)
 # else: 
 #     print("invalid operator")
+
+# Write a program to print  table of any number.
+a = int(input("Enter a number for table:"))
+for i in range(1, 11):
+    print(a,"x",i,"=",a*i)
