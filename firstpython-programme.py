@@ -245,3 +245,42 @@
 # n = int(input("Enter a number: "))
 # for i in range(1,11):
 #     print(n,"x",i,"=",n*i)
+
+# Print sum of all even or odd in a range separately.
+# n = int(input("Enter a number:"))
+# even = 0
+# odd = 0
+# for i in range(1, n+1):
+#     if i%2==0:
+#         even+=i
+#     else:
+#         odd+=i
+# print(f"sum of all even number is {even} and odd number is {odd}.")
+
+# Print factor of any number.
+# n = int(input("Enter any number: "))
+# for i in range(1, n+1):
+#     if n%i==0:
+#         print(i)
+
+# Check whether the number is pefect number or not.
+# n = int(input("Enter any number: "))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print("Perfect number")
+# else:
+#     print("Not a perfect number")
+
+# Check whether the number is prime or not.
+# n = int(input("Enter the number: "))
+# count = 0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==2:
+#     print("This is a Prime Number.")
+# else:
+#     print("This is not a Prime Number.")
