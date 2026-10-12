@@ -29,3 +29,57 @@ print("zeros values:",zeros)'''
 
     return second
 print(second_largest([12, 34, 7, 32, 18, 78, 29]))'''
+
+#Write a programm to reverse a string and try solving it using a loop first...
+'''def reverse_string(text):
+    reversed_text = ""
+    for char in text:
+        reversed_text = char + reversed_text 
+    return reversed_text
+
+
+xyz = "Hello World"
+print(reverse_string(xyz))'''
+
+#write a program to count the vowlels and also count the how many vowels are present in the string.
+'''str = input("enter a string:")
+vowels = "aeiouAEIOU"
+count = 0
+for char in str:
+    if char in vowels:
+        count+=1
+
+print(count)
+
+'''
+#5. Frequency of numbers:
+# Given:
+# numbers = [2, 3, 2, 5, 3, 2, 7, 5, 3]
+
+# Find how many times each number occurs.
+# Expected idea:
+# 2 → 3
+# 3 → 3
+# 5 → 2
+# 7 → 1
+
+# Try doing this with a dictionary
+# numbers = [2, 3, 2, 5, 3, 2, 7, 5, 3]
+# frequency = {}
+
+# for num in numbers:
+#     if num in frequency:
+#         frequency[num] +=1
+#     else:
+#         frequency[num] = 1
+
+# print(frequency)
+
+# Sum of digits
+# Take an integer:
+# 5832
+
+# Output:
+# 18
+
+# Do it using a loop. Don't convert the number to a string.
