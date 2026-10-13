@@ -64,16 +64,16 @@ print(count)
 # 7 → 1
 
 # Try doing this with a dictionary
-# numbers = [2, 3, 2, 5, 3, 2, 7, 5, 3]
-# frequency = {}
+'''numbers = [2, 3, 2, 5, 3, 2, 7, 5, 3]
+ frequency = {}
 
-# for num in numbers:
-#     if num in frequency:
-#         frequency[num] +=1
-#     else:
-#         frequency[num] = 1
+for num in numbers:
+   if num in frequency:
+      frequency[num] +=1
+    else:
+        frequency[num] = 1
 
-# print(frequency)
+ print(frequency)'''
 
 # Sum of digits
 # Take an integer:
@@ -83,3 +83,59 @@ print(count)
 # 18
 
 # Do it using a loop. Don't convert the number to a string.
+'''num = 5832
+sum_digit = 0
+
+while num > 0:
+    sum_digit += num % 10
+    num //= 10
+print("sum of digit: ",sum_digit)'''
+
+# Count odd digits
+# Given:
+# number = 7283519
+
+
+# Count how many digits are odd.
+# Expected answer:
+# 5
+
+'''number = 7283519
+count = 0
+
+for digit in str(number):
+    if int(digit) %2 != 0:
+        count+=1
+
+print("count of odd number:",count)'''
+
+# Reverse a number
+# Input:
+# 12345
+
+# Output:
+# 54321
+
+# Try using mathematical operations rather than string slicing.
+'''number = 12345
+reversed_num = 0
+
+while number != 0:
+    digit = number % 10
+    reversed_num = reversed_num * 10 + digit
+    number//=10
+print("reversed number: ",reversed_num)
+
+
+'''
+
+# Check palindrome number
+# Input:
+# 1221
+
+# Output:
+# Palindrome
+
+# Try using the reverse-number logic from Q3.
+
+
